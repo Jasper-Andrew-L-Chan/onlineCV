@@ -39,3 +39,4 @@ window.addEventListener('mousemove', (e) => {
         pointerGlow.style.setProperty('--mouse-y', `${e.clientY}px`);
     }
 });
+

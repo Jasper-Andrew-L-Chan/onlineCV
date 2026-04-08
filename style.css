@@ -451,6 +451,46 @@ section {
 .project-card p {
     color: var(--text-muted);
     flex-grow: 1;
+    margin-bottom: 1.25rem;
+}
+
+.repo-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+
+.repo-stats {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.repo-stat {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.repo-link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.3rem 0.75rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.repo-link:hover {
+    background: var(--accent);
+    color: #000;
 }
 
 /* Education Section */
